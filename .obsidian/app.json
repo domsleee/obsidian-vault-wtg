@@ -1,0 +1,14 @@
+{
+  "livePreview": false,
+  "useMarkdownLinks": false,
+  "attachmentFolderPath": "/attachments",
+  "pdfExportSettings": {
+    "includeName": true,
+    "pageSize": "A4",
+    "landscape": true,
+    "margin": "1",
+    "downscalePercent": 100
+  },
+  "alwaysUpdateLinks": true,
+  "promptDelete": false
+}

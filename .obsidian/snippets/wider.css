@@ -1,0 +1,25 @@
+body {
+    --file-line-width: 1200px;  
+    --line-width: 1200px;
+}
+
+body:has(.super-wide) {
+    --file-line-width: 1600px!important;
+    --line-width: 1600px!important;
+}
+
+body:has(.super-wide) table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+
+div:has(> div.circle-img) + div {
+    text-align: center;
+}
+
+
+div:has(> div.circle-img) + div img {
+    border-radius: 50%;
+    margin: auto;
+}
